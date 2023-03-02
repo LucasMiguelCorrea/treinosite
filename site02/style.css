@@ -1,0 +1,223 @@
+@charset "UTF-0";
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-color: white;
+    border-radius: 10px solid black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    overflow: hidden;
+}
+#fundo1{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://12dimension.files.wordpress.com/2021/12/one_piece_v102_ch1035_p004-edit.jpg);
+    width: 584px;
+    height: 961px;
+    top: 33%;
+    left: 23%;
+    transform: translate(15%,-24%);
+    opacity: 0.2;
+}
+#fundo2{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2021/04/zoro.jpg?resize=1024%2C828&ssl=1);
+    width: 500px;
+    height: 370px;
+    top: 24%;
+    left: 62%;
+    transform: translate(15%,-24%);
+    opacity: 0.2;
+}
+#fundo3{
+    background-image: url(https://i.pinimg.com/originals/ad/21/0a/ad210a8….png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 759px;
+    height: 701px;
+    top: 27%;
+    left: -9%;
+    transform: translate(15%,-24%);
+    opacity: 0.2;
+}
+#listra{
+    position: absolute;
+    width: 190px;
+    height: 116vh;
+    background-color: black;
+    transform: skew(168deg);
+    top: 0%;
+    left: 58%;
+}
+#zoro{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(zoro.png);
+    width: 500px;
+    height: 370px;
+    top: 65%;
+    left: 62%;
+    transform: translate(15%,-24%);
+}
+#z2{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(http://31.media.tumblr.com/1dbb9be860369703493d5090e5406b8b/tumblr_mgkrvvFqD81rh8smko1_1280.gif);
+    width: 75vw;
+    height: 75vh;
+    top: 10%;
+    left: 19%;
+    transform: translate(18%,20%);
+}
+#linha{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 70vh;
+    top: 0%;
+    left: 3.5%;
+    transform: translate(0%, 0%);
+}
+header{
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    top: 6%;
+    left: 0%;
+    width: 97.8vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+.menu{
+    position: relative;
+    font-size: 25px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+#icon{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/df21dac9348543d9f61913a1b28380ed/d7bc1c1c5e454591-4e/s250x400/7babc08f73ec3743c70c51b97c98fa8a7938a669.jpg);
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    padding: 4px;
+    top: 10%;
+    left: 2%;
+    transform: translate(0%,0%);
+}
+#icon2{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/ce5d263c1ae7e6265b82271bfbff1ea3/d7bc1c1c5e454591-43/s250x400/8f064e55d7bfb9a8307e17acf337fb61bd0f8553.jpg);
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    padding: 4px;
+    top: 30%;
+    left: 2%;
+}
+#icon3{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/64/69/77/64697774b67697d00e1f79a330d83de5.jpg);
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    padding: 4px;
+    top: 50%;
+    left: 2%;
+}
+#nome{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    top: 75%;
+    left: 0%;
+    text-align: center;
+    font-size: 40px ;
+    font-weight: lighter;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Julee', cursive;
+}
+#texto1{
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 5px;
+    top: 11.5%;
+    left: 9%;
+    font-family: 'Julee', cursive;
+    font-size: 18px;
+}
+#texto2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 5px;
+    top: 31.5%;
+    left: 9%;
+    font-family: 'Julee', cursive;
+    font-size: 18px;
+}
+#texto3{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 5px;
+    top: 51.5%;
+    left: 9%;
+    font-family: 'Julee', cursive;
+    font-size: 18px;
+}
+#ls{
+    background-color: black;
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    top: 10%;
+    left: 36%;
+}
+#t2{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    padding-left: 5px;
+    top: 11.5%;
+    left: 39%;
+    font-family: 'Julee', cursive;
+    font-size: 35px;
+}

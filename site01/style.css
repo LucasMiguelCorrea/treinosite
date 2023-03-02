@@ -1,0 +1,207 @@
+@charset "UTF-0";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/*
+cores da mais escura para mais clara
+#0D0D0D
+#498C2A
+#77BF0A
+#96F20C
+#D0F285
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-image: linear-gradient(to right, #0D0D0D 50%, #0DF205);
+}
+.fone{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-image: url(http://lojasaraiva.vteximg.com.br/arquivos/ids/12114923/1006802438.jpg?v=637142269632500000);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 40%;
+    top: 10%;
+    transform: translate(10%, 25%)
+}
+header{
+    width: 97.8vw;
+    border-bottom: 1px solid #0DF205;
+    
+    padding: 15px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: #0D0D0D;
+}
+.logo{
+    position: absolute;
+    background-image: url(https://logosmarcas.net/wp-content/uploads/2020/11/Razer-Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 50px;
+    left: 10%;
+    top: 20%;
+    transform: translate(-44%, -15%);
+}
+.pesquisa{
+    
+}
+.menu{
+    color: #e7eed7;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-variant: small-caps;
+    font-family: 'Poppins', sans-serif;
+       
+}
+.menu:hover{
+    
+    color: #0DF205;
+    transition-property: unset;
+    transition-duration: 1s;
+}
+main{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    color: #0DF205;
+    height: 400px;
+    width: 400px;
+    left: 5%;
+    top: 6%;
+    transform: translate(5%, 40%);
+}
+.h1{
+    font-size: 45px;
+    padding: 1px;
+}
+.h2{
+    font-size: 30px;
+    border: 2px solid #0DF205;
+    display: inline-block;
+    padding: 3px;
+}
+#c{
+    
+    text-decoration: none;
+    color: #0D0D0D;
+    background-color: #0DF205;
+    outline-style: solid;
+    outline-color: #0DF205;
+    outline-width: 3px;
+}
+#d{
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #0DF205;
+}
+.sub{
+    color: #0DF205;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.texto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    text-align: justify;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+/*
+#esq{
+    position: absolute;
+    color: #0DF205;
+    width: 68%;
+    height: 86%;
+    left: -7%;
+    top: 1000%;
+    transform: translate(28%, 58%);
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.prox{
+    text-decoration: none;
+    color: #0DF205;
+    padding: 3px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#laele{
+    color: #0DF205;
+    transition-property: unset;
+    font-size: 23px;
+    transition-duration: 0.5s;
+}
+*/
+#ima{
+    background-color: #0d0d0d6c;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    height: 500px;
+    overflow: hidden;
+    left: 85%;
+    top: 20%;
+    transform: translate(-44%, 24%);
+    
+}
+#im1{
+    background-color: #0d0d0d6c;
+    position: absolute;
+    background-image: url(http://lojasaraiva.vteximg.com.br/arquivos/ids/12114923/1006802438.jpg?v=637142269632500000);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 120px;
+    height: 120px;
+    left: 85%;
+    top: 160%;
+    transform: translate(-44%, 48%);
+    margin: -1px  #0DF205;
+    
+}
+#im2{
+    background-color: #0d0d0d6c;
+    position: absolute;
+    background-image: url(842017957123.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 120px;
+    height: 120px;
+    left: 85%;
+    top: 160%;
+    transform: translate(-44%, 156%);
+    margin: -1px  #0DF205;
+}
+#im3{
+    background-color: #0d0d0d6c;
+    position: absolute;
+    background-image: url(https://dcminfo.com.br/images/products/8176_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 120px;
+    height: 120px;
+    left: 85%;
+    top: 160%;
+    transform: translate(-44%, 265%);
+    margin: -1px  #0DF205;
+}
+.img:hover{
+    border: 1px solid #0D0D0D;
+}

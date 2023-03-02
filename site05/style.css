@@ -1,0 +1,242 @@
+@charset "UTF-0";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+Cores Mugiwaras
+
+luffy
+
+
+#991212
+
+Zoro
+#40f46d
+#26f237
+
+Nami
+#f47940
+#f25626
+
+Usopp
+#f4e840
+#f2c226
+
+Sanji
+#4070F4
+#265df2
+
+Chopper
+#f4406d
+#f22652
+
+Nico Robin
+#7f40f4
+#6d26f2
+
+Franky
+#40acf4
+#266df2
+
+Brook
+#acb3ab
+#656668
+
+jinbe
+#f4c440
+#f2ab26
+*/
+html,body{
+    
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #d4d4d4;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#fundo0{
+    background-image: url(img/011-012_m.webp);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 202%;
+    height: 163%;
+    top: 20%;
+    left: -32%;
+    transform: translate(15%,-24%);
+    opacity: 0.7;
+}
+
+#fundo{
+    background-image: url(img/mugi.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 24%;
+    left: -44%;
+    transform: translate(15%,-24%);
+}
+header{
+    display: inline-block;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#linha{
+    position: absolute;
+    width: 786px;
+    height: 116vh;
+    background-color: #d51919;
+    transform: skew(152deg);
+    top: 0%;
+    left: 85%;
+    
+}
+/*
+#linha2{
+    position: absolute;
+    width: 786px;
+    height: 116vh;
+    background-color: #d51919;
+    transform: skew(152deg);
+    top: 0%;
+    left: 8%;
+    
+}
+*/
+.global-page{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+    padding: 50px;
+}
+
+.card{
+    overflow: hidden;
+    width: 300px;
+    
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 14px 0 14px;
+    
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px;
+    background-color: #f44040;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #f44040;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: #f44040;
+    border-radius: 25px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.whatch-slider{
+    padding: 20px 0 20px 0 ;
+    overflow: hidden;
+}
+.whatch-slider .card{
+    transform: scale(0.5);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.name{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-top: 5px;
+}
+.discription{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 500;
+    color: #494949;
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    font-family: 'Crimson Pro', serif;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #f44040;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.button:hover{
+    background-color: #f22626;
+}
+
+.whatch-slider .card.slick-center{
+    transform: scale(1);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.arrow{
+    display: inline-block;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#arrow-next{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+#arrow-prev{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
